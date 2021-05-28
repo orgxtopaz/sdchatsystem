@@ -4,7 +4,7 @@ const http = require('http').createServer(app)
 
 let users=[]; // STORED THE NEW USERS JOINED IN THE CHAT ROOM
 
-const PORT = process.env.PORT || 5700
+const PORT = process.env.PORT || 8081
 
 
 http.listen(PORT, () => {
